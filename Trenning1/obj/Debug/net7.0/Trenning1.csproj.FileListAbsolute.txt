@@ -1,0 +1,15 @@
+C:\Users\V\Desktop\Project\Trenning1\bin\Debug\net7.0\Trenning1.exe
+C:\Users\V\Desktop\Project\Trenning1\bin\Debug\net7.0\Trenning1.deps.json
+C:\Users\V\Desktop\Project\Trenning1\bin\Debug\net7.0\Trenning1.runtimeconfig.json
+C:\Users\V\Desktop\Project\Trenning1\bin\Debug\net7.0\Trenning1.dll
+C:\Users\V\Desktop\Project\Trenning1\bin\Debug\net7.0\Trenning1.pdb
+C:\Users\V\Desktop\Project\Trenning1\obj\Debug\net7.0\Trenning1.csproj.AssemblyReference.cache
+C:\Users\V\Desktop\Project\Trenning1\obj\Debug\net7.0\Trenning1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\V\Desktop\Project\Trenning1\obj\Debug\net7.0\Trenning1.AssemblyInfoInputs.cache
+C:\Users\V\Desktop\Project\Trenning1\obj\Debug\net7.0\Trenning1.AssemblyInfo.cs
+C:\Users\V\Desktop\Project\Trenning1\obj\Debug\net7.0\Trenning1.csproj.CoreCompileInputs.cache
+C:\Users\V\Desktop\Project\Trenning1\obj\Debug\net7.0\Trenning1.dll
+C:\Users\V\Desktop\Project\Trenning1\obj\Debug\net7.0\refint\Trenning1.dll
+C:\Users\V\Desktop\Project\Trenning1\obj\Debug\net7.0\Trenning1.pdb
+C:\Users\V\Desktop\Project\Trenning1\obj\Debug\net7.0\Trenning1.genruntimeconfig.cache
+C:\Users\V\Desktop\Project\Trenning1\obj\Debug\net7.0\ref\Trenning1.dll
