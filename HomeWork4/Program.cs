@@ -1,8 +1,5 @@
-﻿/*Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
-
-3, 5 -> 243 (3⁵)
-
-2, 4-> 16*/
+﻿Console.Clear();
+Console.WriteLine("Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.\r\n3, 5 -> 243 (3⁵)\r\n2, 4-> 16");
 
 int Prompt(string msg)
 {
@@ -31,17 +28,12 @@ int powerBase = Prompt("Введите число:");
 int exponent = Prompt("Введите степень:");
 if (ValidateExponent(exponent))
 {
-    Console.WriteLine($"Число{powerBase} в степени {exponent} равно {Power( powerBase, exponent)}");
+    Console.WriteLine($"Число {powerBase} в степени {exponent} равно {Power( powerBase, exponent)}");
 }
+Console.ReadKey();
 
-
-/*Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
-
-452 -> 11
-
-82 -> 10
-
-9012 -> 12*/
+Console.Clear();
+Console.WriteLine("Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.\n452 -> 11\n82 -> 10\n9012 -> 12");
 
 int Input(string msg)
 {
@@ -62,18 +54,12 @@ int Sum(int numbers)
 }
 int numbers = Input("Введите число: ");
 Console.WriteLine($"Сумма всех цифр в числе {numbers} = {Sum(numbers)} ");
+Console.ReadKey();
 
 
-
-
-
-/*Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
-
-1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
-
-6, 1, 33-> [6, 1, 33]*/
-
-int Input(string msg)
+Console.Clear();
+Console.WriteLine("Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.\r\n1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]\r\n6, 1, 33-> [6, 1, 33]");
+int Input1(string msg)
 {
     Console.WriteLine(msg);
     string input = Console.ReadLine();
@@ -93,16 +79,17 @@ int[] GenerateArray(int Length, int minValue, int maxValue)
 }
 void PrintArray(int[] array)
 {
-    Console.WriteLine("[");
+    Console.Write("[");
     for (int i = 0;i < array.Length;i++)
     {
         Console.WriteLine($"{array[i]}, ");
     }
-    Console.WriteLine($"{array[array.Length-1]}");
-    Console.WriteLine("]");
+    Console.Write($"{array[array.Length-1]}");
+    Console.Write("]");
 }
-int Length = Input("Длина массива:");
-int min = Input("Начальное значение чисел, для диапозона:");
-int max = Input("Конечное значение чисел, для диапозона");
+int Length = Input1("Длина массива:");
+int min = Input1("Начальное значение чисел, для диапозона:");
+int max = Input1("Конечное значение чисел, для диапозона");
 int[]array =  GenerateArray(Length, min, max);
 PrintArray(array);
+Console.ReadKey();
