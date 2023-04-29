@@ -67,7 +67,7 @@ void Print_double(double[] numbers)
 {
 	for (int i = 0;i < numbers.Length; i++)
 		{
-			Console.Write(numbers[i]);
+			Console.Write($"{numbers[i]} ");
 		}
 	Console.WriteLine();
 }
@@ -153,4 +153,4 @@ void min_difference_max()
     Console.WriteLine($"Максимальное значение: {max_num(numbers)}");
     Console.WriteLine($"Разница между минимальным и максимальным числом -> {result}");
 }
-//min_difference_max();
+min_difference_max();
